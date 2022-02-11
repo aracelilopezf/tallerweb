@@ -1,0 +1,21 @@
+<html>                                              
+    <head>                                          <!-- COMENTARIO-->
+        <title> Mi primera pagina web</title>      <!-- La identacion no importa, solo la apertura y cierre--> 
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">   
+    </head>
+    <body>
+        <a href="{{url_for('inicio')}}"> Inicio </a>
+        <a href="{{url_for('contacto')}}"> Contacto </a>
+        <a href="https://www.instagram.com/aracelilopezf/?hl=es-la">Instagram:</a>
+
+        <h1> Hola, Mundo </h1>                      <!--Crear un titulo con el texto "HOola, Mundo" en h1-->
+
+        <!--CHALLENGE:
+        Crear un titulo h2 con el texto: Mi nombre es " "
+        Crear un titulo h3 con el texto: Y estoy en penguin porque " "-->
+        <h2> Mi nombre es Araceli Lopez</h2>
+        <h3> Y estoy en Penguin porque me gusta aprender</h3>
+        <img src=" static/perrito.png" alt="perrito con lentes" width="300" height="250">
+    </body>
+</html>
+
